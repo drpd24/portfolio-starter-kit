@@ -10,14 +10,6 @@ author: Davindra
 
 XRDP (X Remote Desktop Protocol) provides a convenient way to access your Ubuntu machine remotely through a graphical user interface. This guide will walk you through the step-by-step process of installing XRDP on an Ubuntu system
 
-```js
-function About() {
-  return <div>About</div>
-}
-
-export default About
-```
-
 ### Prerequisites
 
 Before proceeding, ensure you have the following:
@@ -26,9 +18,9 @@ An Ubuntu machine (tested on Ubuntu 22.04 LTS).
 sudo (administrator) privileges.
 Basic knowledge of command line.
 
-### Installation Steps
+## Installation Steps
 
-## Step 1: Update Package Repositories
+### Step 1: Update Package Repositories
 
 ## Code
 
