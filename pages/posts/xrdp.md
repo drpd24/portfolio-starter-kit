@@ -1,5 +1,5 @@
 ---
-title: A Step-by-Step Guide to Installing XRDP on Ubuntu for Remote Desktop Access
+title: A Step-by-Step Guide to Installing XRDP on Ubuntu
 date: 2024/3/08
 description: Explore the world of remote desktop access on Ubuntu with our concise guide to installing XRDP. This step-by-step tutorial covers prerequisites, installation, service startup, firewall configuration, and connection setup.
 tag: something
