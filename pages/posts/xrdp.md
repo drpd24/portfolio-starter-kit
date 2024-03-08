@@ -24,6 +24,41 @@ Basic knowledge of command line.
 
 Open a terminal and update the package repositories to ensure you have the latest information about available packages.
 
-```js
+```bash
 sudo apt update && sudo apt upgrade -y
 ```
+
+### Step 2: Install XRDP Package
+
+```bash
+sudo apt install xrdp -y
+```
+### Step 3: Start XRDP Service
+
+After installation, start the XRDP service
+
+```bash
+sudo systemctl start xrdp
+```
+
+### Step 4: Configure Firewall
+
+If you have the UFW (Uncomplicated Firewall) disabled enter "sudo ufw enable" in the command line, allow traffic on the XRDP port (default is 3389):
+
+```bash
+sudo ufw allow 3389/tcp
+```
+
+### Step 5: Verify XRDP Installation
+
+Check if XRDP is running and listening on the default port:
+
+```bash
+sudo systemctl status xrdp
+```
+
+### Step 6: Connect to the Remote Desktop
+
+Open the Remote Desktop Client on your local machine
+Enter the IP address or hostname of your Ubuntu machine.
+Provide your Ubuntu username and password when prompted.
