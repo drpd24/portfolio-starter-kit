@@ -22,8 +22,6 @@ Basic knowledge of command line.
 
 ### Step 1: Update Package Repositories
 
-## Code
-
 Open a terminal and update the package repositories to ensure you have the latest information about available packages.
 
 ```js
