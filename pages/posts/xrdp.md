@@ -60,5 +60,7 @@ sudo systemctl status xrdp
 ### Step 6: Connect to the Remote Desktop
 
 Open the Remote Desktop Client on your local machine
+
 Enter the IP address or hostname of your Ubuntu machine.
+
 Provide your Ubuntu username and password when prompted.
