@@ -1,16 +1,14 @@
 ---
-title: Next.js Pages
-date: 2021/3/18
-description: Learn more about Next.js pages.
+title: A Step-by-Step Guide to Installing XRDP on Ubuntu for Remote Desktop Access
+date: 2024/3/08
+description: Explore the world of remote desktop access on Ubuntu with our concise guide to installing XRDP. This step-by-step tutorial covers prerequisites, installation, service startup, firewall configuration, and connection setup.
 tag: web development
-author: You
+author: Davindra
 ---
 
-# Next.js Pages
+# Introduction
 
-In Next.js, a **page** is a [React Component](https://reactjs.org/docs/components-and-props.html) exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file in the `pages` directory. Each page is associated with a route based on its file name.
-
-**Example**: If you create `pages/about.js` that exports a React component like below, it will be accessible at `/about`.
+XRDP (X Remote Desktop Protocol) provides a convenient way to access your Ubuntu machine remotely through a graphical user interface. This guide will walk you through the step-by-step process of installing XRDP on an Ubuntu system
 
 ```js
 function About() {
@@ -20,17 +18,25 @@ function About() {
 export default About
 ```
 
-### Pages with Dynamic Routes
+### Prerequisites
 
-Next.js supports pages with dynamic routes. For example, if you create a file called `pages/posts/[id].js`, then it will be accessible at `posts/1`, `posts/2`, etc.
+Before proceeding, ensure you have the following:
 
-> To learn more about dynamic routing, check the [Dynamic Routing documentation](/docs/routing/dynamic-routes.md).
+An Ubuntu machine (tested on Ubuntu 22.04 LTS).
+sudo (administrator) privileges.
+Basic knowledge of command line.
 
-## Pre-rendering
+### Installation Steps
 
-By default, Next.js **pre-renders** every page. This means that Next.js generates HTML for each page in advance, instead of having it all done by client-side JavaScript. Pre-rendering can result in better performance and SEO.
+## Step 1: Update Package Repositories
 
-Each generated HTML is associated with minimal JavaScript code necessary for that page. When a page is loaded by the browser, its JavaScript code runs and makes the page fully interactive. (This process is called _hydration_.)
+## Code
+
+Open a terminal and update the package repositories to ensure you have the latest information about available packages.
+
+```js
+sudo apt update && sudo apt upgrade -y
+```
 
 ### Two forms of Pre-rendering
 
