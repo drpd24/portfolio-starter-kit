@@ -8,7 +8,7 @@ author: Davindra Ramadhan
 
 # Introduction
 
-XRDP (X Remote Desktop Protocol) provides a convenient way to access your Ubuntu machine remotely through a graphical user interface. This guide will walk you through the step-by-step process of installing XRDP on an Ubuntu system
+XRDP provides a convenient way to access your Ubuntu machine remotely through a graphical user interface. This guide will walk you through the step-by-step process of installing XRDP on an Ubuntu system
 
 ### Prerequisites
 
